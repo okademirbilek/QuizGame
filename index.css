@@ -74,18 +74,16 @@ body {
 
 
 .yellowBlob{
-  transform: translate(190.5%, -211px);
-  z-index: 10;
+  transform: translate(190.5%, -88.5%);
   width: 50%;
   height: 50%;
   user-select:none;
 }
 
 .blueBlob{
-  transform: translate(-285px, 375px); 
+  transform: translate(-151%, 342%); 
   width: 30%;
   height: 23%;
-  z-index: 10;
   user-select:none;
   
 }
