@@ -100,6 +100,7 @@ function App() {
   //starting quiz
   function startQuiz(){
     setIsAlive(prevAlive=> !prevAlive)
+    setCount(0)
   }
   //goingback to main menu
   function backToMenu(){
