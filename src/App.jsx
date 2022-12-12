@@ -61,7 +61,7 @@ function App() {
       setQuestionData(questionsList)
     }
     getQuestions()
-  },[restart,difficulty])
+  },[restart,difficulty,category])
 
   // console.log(questionData)
 
@@ -186,12 +186,10 @@ function playAgain(){
         
         }
         </div>:
-        <span>
-          <img className="yellowBlob" src={yellowBlob}></img>
+        <div className="mainmenu-part">
           <MainPart startQuiz={startQuiz} selectDifficulty={selectDifficulty} />
           <Category category={category} handleChange={handleChange} />
-          <img className="blueBlob" src={blueBlob}></img>
-        </span>
+        </div>
       }
       
     </div>
