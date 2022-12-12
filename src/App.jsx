@@ -99,8 +99,9 @@ function App() {
 
   //starting quiz
   function startQuiz(){
-    setIsAlive(prevAlive=> !prevAlive)
     setCount(0)
+    setIsAlive(prevAlive=> !prevAlive)
+    
   }
   //goingback to main menu
   function backToMenu(){
