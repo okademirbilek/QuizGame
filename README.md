@@ -1,3 +1,3 @@
 # QuizGame
-React
+React practice quiz game 
 link:https://quiz-game-red.vercel.app/
